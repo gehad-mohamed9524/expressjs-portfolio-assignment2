@@ -1,0 +1,52 @@
+
+<!-- Include the shared header -->
+<%- include('partials/header') %>
+
+<!-- Include the navigation bar -->
+<%- include('partials/navbar') %>
+
+<!-- About Me page content -->
+<main class="container mt-4">
+
+  <h1><%= title %></h1>
+
+  <article>
+
+    <!-- Profile picture -->
+    <img class="profile-image" src="/images/portfolio-image.jpeg"
+     alt="Photo of Gehad Mohamed">
+
+
+    <p>
+      I enjoy the process of turning an idea into something useful.
+      What motivates me most is building things step by step,
+      watching each part come together, and seeing the final result
+      take shape.
+    </p>
+
+    <!-- List of skills -->
+    <h2>Skills</h2>
+
+    <ul>
+      <li>Programming: Python and object-oriented programming</li>
+      <li>Web Development: HTML and CSS</li>
+      <li>Network Design and Configuration</li>
+      <li>Routing and Switching: VLANs, OSPF, BGP, and static routing</li>
+      <li>Network Troubleshooting and Connectivity Testing</li>
+      <li>Problem-Solving and Analytical Thinking</li>
+    </ul>
+
+    <!-- Introduction video -->
+    <h2>Get To Know Me</h2>
+
+    <video width="500" controls poster="/images/video-poster.png">
+      <source src="/videos/portfolio-video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+  </article>
+
+</main>
+
+<!-- Include the shared footer -->
+<%- include('partials/footer') %>

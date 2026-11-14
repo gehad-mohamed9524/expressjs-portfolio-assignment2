@@ -1,0 +1,120 @@
+<!-- Include the shared header -->
+<%- include('partials/header') %>
+
+<!-- Include the navigation bar -->
+<%- include('partials/navbar') %>
+
+<!-- Projects page content -->
+<main class="container mt-4">
+
+  <!-- Page title -->
+  <h1><%= title %></h1>
+
+  
+  <article>
+
+<!-- Corporate Network Design project -->
+<section>
+  <h3>Corporate Network Design – Group Project</h3>
+
+  <!-- Project image -->
+  <img class="project-image" src="/images/corporate-network.jpeg"
+     alt="Corporate Network Design topology">
+
+  <!-- Project description -->
+  <p>
+    Worked with a partner to design and simulate a corporate network
+    connecting three buildings using Cisco Packet Tracer.
+    The project involved IPv4 addressing, subnetting, static routing,
+    and testing network connectivity between buildings and an Internet server.
+  </p>
+
+  <!-- Downloadable project file -->
+  <a class="btn btn-primary" href="/project-files/corporate-network.pkt" download>
+   Download Project File
+  </a>
+
+</section>
+
+
+<!-- Multi-Site Network Design project -->
+<section>
+  <h3>Multi-Site Network Design – Group Project</h3>
+
+  <!-- Project image -->
+  <img class="project-image" src="/images/multi-site-network.jpeg"
+     alt="Multi-Site Corporate Network topology">
+
+  <!-- Project description -->
+  <p>
+    Collaborated with a team of three to design and implement a
+    corporate network connecting Toronto, Vancouver, Chicago, and
+    Mexico using Cisco Packet Tracer.
+    I was responsible for building the entire network topology,
+    configuring the Vancouver and Chicago networks, and ensuring
+    successful connectivity across all branches.
+    The project involved VLANs, inter-VLAN routing, OSPF, BGP,
+    and network connectivity testing.
+  </p>
+
+  <!-- Downloadable project file -->
+  <a class="btn btn-primary" href="/project-files/multi-site-network.pkt" download>
+    Download Project File
+  </a>
+</section>
+
+
+<!-- Library Management System project -->
+<section>
+  <h3>Library Management System</h3>
+
+  <!-- Project image -->
+  <img class="project-image" src="/images/library-system.jpeg"
+     alt="Library Management System program">
+
+  <!-- Project description -->
+  <p>
+    A Python-based Library Management System that allows users to
+    borrow, return, and manage books through a console interface.
+    The project uses object-oriented programming concepts,
+    including classes and inheritance, CSV file handling,
+    exception handling, and overdue penalty calculations.
+  </p>
+
+  <!-- Downloadable project file -->
+   <a class="btn btn-primary" href="/project-files/library-system.pdf" download>
+      Download Project File
+   </a>
+</section>
+
+
+<!-- Python Calculator project -->
+<section>
+  <h3>Simple Calculator Application – Python GUI</h3>
+
+  <!-- Project image -->
+  <img class="project-image" src="/images/calculator.jpeg"
+     alt="Python calculator graphical interface">
+
+  <!-- Project description -->
+  <p>
+    A simple calculator application using Python and PyQt5.
+    The application features a graphical user interface that
+    allows users to perform addition, subtraction,
+    multiplication, and division.
+    It also includes input fields, interactive buttons,
+    and error handling for division by zero.
+  </p>
+
+  <!-- Downloadable project file -->
+   <a class="btn btn-primary" href="/project-files/calculator.pdf" download>
+      Download Project File
+   </a>
+</section>
+
+  </article>
+
+</main>
+
+<!-- Include the shared footer -->
+<%- include('partials/footer') %>

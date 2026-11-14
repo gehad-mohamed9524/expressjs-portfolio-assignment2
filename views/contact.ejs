@@ -1,0 +1,66 @@
+<!-- Include the shared header -->
+<%- include('partials/header') %>
+
+<!-- Include the navigation bar -->
+<%- include('partials/navbar') %>
+
+
+
+
+<main class="container mt-4">
+
+  <!-- Page title -->
+  <h1><%= title %></h1>
+
+  <!-- Contact form section -->
+  <article>
+
+<!-- Contact form -->
+<form action="mailto:gehad.mohamed@ontariotechu.net"
+      method="post" enctype="text/plain">
+
+
+ <!-- Visitor's name -->
+ <div class="mb-3">
+    <label for="name" class="form-label">Name</label>
+    <input type="text" class="form-control"
+         id="name" name="name" required>
+ </div>
+
+ <!-- Visitor's email -->
+ <div class="mb-3">
+   <label for="email" class="form-label">Email</label>
+   <input type="email" class="form-control"
+         id="email" name="email" required>
+ </div>
+
+
+ <!-- Visitor's phone number -->
+ <div class="mb-3">
+   <label for="phone" class="form-label">Phone Number</label>
+   <input type="tel" class="form-control"
+         id="phone" name="phone" required>
+ </div>
+
+
+ <!-- Visitor's message -->
+ <div class="mb-3">
+   <label for="comments" class="form-label">Comments</label>
+   <textarea class="form-control" id="comments"
+            name="comments" rows="5" required></textarea>
+ </div>
+
+
+  <!-- Submit button -->
+  <p>
+    <input type="submit" class="btn btn-primary" value="Submit">
+  </p>
+
+</form>
+
+  </article>
+
+</main>
+
+<!-- Include the shared footer -->
+<%- include('partials/footer') %>

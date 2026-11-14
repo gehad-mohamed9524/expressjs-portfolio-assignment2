@@ -1,0 +1,33 @@
+
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Links */
+a {
+  color: #007bff;
+}
+
+
+/* Profile picture styling */
+.profile-image {
+  width: 250px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Project image styling */
+.project-image {
+  width: 400px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Spacing between projects */
+section {
+  margin-bottom: 40px;
+}
